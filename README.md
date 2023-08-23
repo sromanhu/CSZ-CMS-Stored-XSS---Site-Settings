@@ -9,7 +9,7 @@
 ### POC:
 
 
-When logging into the panel, we will go to the "Site Settings" section off General Menu [http://localhost/admin/carousel]
+When logging into the panel, we will go to the "Site Settings" section off General Menu [(http://localhost/cszcms/admin/settings)]
 
 ![image](https://github.com/sromanhu/CSZ-CMS-Stored-XSS---Site-Settings/assets/87250597/a7b3bc1d-5f87-4614-8193-946278bb3af3)
 
