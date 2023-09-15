@@ -2,7 +2,8 @@
 
 ## Author: (Sergio)
 
-**Description:** CSZ CMS 1.3.0 is affected by a Stored Cross-Site Scripting (XSS) vulnerability that allows attackers to execute arbitrary code via a crafted payload to the Additional Meta Tag parameter in the Site Settings Menu that will appear both on the main page and on the subpages. 
+**Description:** Cross Site Scripting vulnerability in CSZCMS v.1.3.0 allows a local attacker to execute arbitrary code via a crafted script to the Additional Meta Tag parameter in the Site Settings Menu.
+**Attack Vectors:** Scripting A vulnerability in the sanitization of the entry in the Additional Meta Tag of "Site Settings" allows injecting JavaScript code that will be executed when the user accesses the web page and on the subpages.
 
 ---
 
@@ -48,3 +49,8 @@ If we log in with another user, the payload also skips:
 
 
 </br>
+
+### Additional Information:
+http://cszcms.com
+https://owasp.org/Top10/es/A03_2021-Injection/
+https://owasp.org/www-community/attacks/xss/
